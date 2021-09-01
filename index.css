@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	
 	font-size: 100%;
@@ -67,19 +67,36 @@ h1{
     
 }
 
+header nav{
+    margin: 0 auto;
+  width:49%;
+}
+
 header nav a{
     font-family: 'Roboto Mono', monospace;
     text-decoration:none;
     margin: 0 auto;
-  width:600px;
+  width:15%;
   background-color:#F87B99;
   display: inline-block;
   border-radius: 20px;
-  color: white;
+  color:#fff;
   border: 1px solid lightgray;
-  padding: 20px;
-
+  padding: 1% 0;
+  border-radius:10px;
 }
+
+header nav a:nth-child(1){
+    background-color:#FF764E;
+}
+header nav a:nth-child(2){
+    background-color:#5ED3EB;
+}
+
+header nav a:nth-child(3){
+    background-color:#FFCD69;
+}
+
 span{
     font-weight:bold;
 }
@@ -87,17 +104,15 @@ span{
 section{
     padding:4% 0;
 }
-nav{
-    padding:2% 0;
-}
+
 
 nav a{
     display:inline-block;
     padding:1% 0;
     width:10%;
-    border-radius:10px;
+    
     text-align:center;
-    color:#fff;
+    
 }
 
 .orange{
