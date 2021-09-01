@@ -45,12 +45,16 @@ table {
 	border-spacing: 0;
 }
 
+
 *{
     box-sizing:border-box;
+    border:1px solid gray;
     padding:0;
     margin:0;
     max-width:100%;
 }
+
+/*gen styles!*/
 
 html{
     font-size:62.5%;
@@ -61,48 +65,61 @@ body{
     line-height:1.5;
     color:#4f4f4f;
     background-color:white;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1{
     font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
     
 }
 
-header nav{
-    margin: 0 auto;
+section{
+    padding:4% 0;
+    width:90%;
+    margin:0 auto;
+}
 
-  width:49%;
+header nav{
+    padding:2% 0;
+    
 }
 
 header nav a{
-    font-family: 'Roboto Mono', monospace;
+    
     text-decoration:none;
-    margin: 0 auto;
-  width:15%;
+   
+  width:10%;
   background-color:#F87B99;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 10px;
   color:#fff;
-  border: 1px solid lightgray;
+  
   padding: 1% 0;
   border-radius:10px;
+  text-align:center;
+  text-decoration:none;
   
 }
 
 header nav a:nth-child(1){
     background-color:#FF764E;
+    /*orange*/
+    margin-left:10%;
 }
 header nav a:nth-child(2){
     background-color:#5ED3EB;
+    /*blue*/
+    margin:0 24%;
 }
 
 header nav a:nth-child(3){
     background-color:#FFCD69;
+    /*yellow?*/
+    margin-right:10%;
 }
 
-span{
-    font-weight:bold;
-}
+
 
 section{
     padding:4% 0;
@@ -118,16 +135,8 @@ nav a{
     
 }
 
-.orange{
-    background-color:#FF764E;
-    margin-left:10%;
-}
-/*TODO:: ADD OTHER COLOR CLASSES HERE!!!*/
 
-/*BELOW WE HAD TO HACK AROUND THE FACT WE CANNOT USE FLEXBOX
-TODAY WHICH KIND OF SUCKS
-BASICALLY HAD TO POSITION THESE ELEMENTS RELATIVE OR ABSOLUTE
-DEPENDING ON HOW YOU WANT TO DISPLAY IN THIS CASE TEXT*/
+
 
 .titles{
     text-align:center;
@@ -140,12 +149,13 @@ DEPENDING ON HOW YOU WANT TO DISPLAY IN THIS CASE TEXT*/
 }
 .left{
     width:30%;
-    margin-left:5%;
+    
 }
 
 .right{
     width:55%;
-    position:relative;
+    margin-left:5%;
+    text-align:center;
 }
 .right div{
     position:absolute;
@@ -157,6 +167,7 @@ DEPENDING ON HOW YOU WANT TO DISPLAY IN THIS CASE TEXT*/
 }
 
 .pinkbox{
+    margin:5%;
 background-color:#DDB9A3;
 }
 
@@ -186,8 +197,44 @@ footer{
 
 }
 
+footer nav{
+    padding:2% 0;
+    
+}
+
+footer nav a{
+    
+    text-decoration:none;
+   
+  width:10%;
+  background-color:#F87B99;
+  display: inline-block;
+  border-radius: 10px;
+  color:#fff;
+  
+  padding: 1% 0;
+  border-radius:10px;
+  text-align:center;
+  text-decoration:none;
+  
+}
+
 
 
 b{
     font-weight:bold;
+}
+
+footer nav a:nth-child(1){
+    background-color:#FF764E;
+    /*orange*/
+}
+footer nav a:nth-child(2){
+    background-color:#5ED3EB;
+    /*blue*/
+}
+
+footer nav a:nth-child(3){
+    background-color:#FFCD69;
+    /*yellow?*/
 }
