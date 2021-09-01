@@ -64,12 +64,21 @@ body{
 
 h1{
     font-family: 'Chelsea Market', cursive;
-
+    
 }
 
-a{
+header nav a{
     font-family: 'Roboto Mono', monospace;
     text-decoration:none;
+    margin: 0 auto;
+  width:600px;
+  background-color:#F87B99;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid lightgray;
+  padding: 20px;
+
 }
 span{
     font-weight:bold;
@@ -126,4 +135,5 @@ DEPENDING ON HOW YOU WANT TO DISPLAY IN THIS CASE TEXT*/
 }
 .left img{
     border-radius:50%;
+    width:60%;
 }
