@@ -60,6 +60,7 @@ body{
     font-size:1.6rem;
     line-height:1.5;
     color:#4f4f4f;
+    background-color:#DDB9A3;
 }
 
 h1{
@@ -69,6 +70,7 @@ h1{
 
 header nav{
     margin: 0 auto;
+
   width:49%;
 }
 
@@ -151,4 +153,15 @@ DEPENDING ON HOW YOU WANT TO DISPLAY IN THIS CASE TEXT*/
 .left img{
     border-radius:50%;
     width:60%;
+}
+
+footer{
+    background-color:#F9E7DC;
+
+}
+
+
+
+b{
+    font-weight:bold;
 }
