@@ -48,7 +48,7 @@ table {
 
 *{
     box-sizing:border-box;
-    border:1px solid gray;
+   
     padding:0;
     margin:0;
     max-width:100%;
@@ -70,7 +70,7 @@ body{
 
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size:5rem;
+    font-size:6rem;
     
 }
 
@@ -140,7 +140,7 @@ nav a{
 
 .titles{
     text-align:center;
-    position:relative;
+   position:relative;
 
 }
 .left, .right{
@@ -156,11 +156,11 @@ nav a{
     width:55%;
     margin-left:5%;
     text-align:center;
+    top:150px;
+  
+   
 }
-.right div{
-    position:absolute;
-    top:43%;
-}
+
 .left img{
     border-radius:50%;
     width:60%;
@@ -169,28 +169,16 @@ nav a{
 .pinkbox{
     margin:5%;
 background-color:#DDB9A3;
+padding:2%;
 }
 
 .parent{
-   justify-items:center;
-   text-align:center;
-    position:relative;
+   width:30%;
+   margin:0 auto;
 
 }
 
-.fire{
-    width:5%;
-    margin-center:5%;
-    
-}
 
-
-.entryfee{
-    width:5%;
-    margin-center:5%;
-    
-
-}
 
 footer{
     background-color:#F9E7DC;
@@ -225,6 +213,15 @@ b{
     font-weight:bold;
 }
 
+.bg-img{
+    background-image: url('assets/footer_img.jpg');
+    height:50vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top center;
+    width:100%;
+}
+
 footer nav a:nth-child(1){
     background-color:#FF764E;
     /*orange*/
@@ -237,4 +234,8 @@ footer nav a:nth-child(2){
 footer nav a:nth-child(3){
     background-color:#FFCD69;
     /*yellow?*/
+}
+
+footer{
+    background-color:#F9E7DC;
 }
